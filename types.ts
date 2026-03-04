@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 export enum SectionType {
   DESIGN = 'DESIGN',
   RESEARCH = 'RESEARCH',

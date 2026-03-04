@@ -18,8 +18,8 @@ const projects = [
     category: "Interactive Installation",
     categoryJP: "インタラクティブ・インスタレーション",
     year: "2023",
-    image: "/Balance/Image/balanceimage.JPG",
-    bannerImage: "/Balance/BannerImage/balancebannerimages.jpg",
+    image: `${import.meta.env.BASE_URL}Balance/Image/balanceimage.JPG`,
+    bannerImage: `${import.meta.env.BASE_URL}Balance/BannerImage/balancebannerimages.jpg`,
     description: "Transforming consumption data into physical weight.",
     descriptionJP: "消費データを物理的な重さに変換する。",
     shortIntro: "A balance scale that makes the invisible weight of everyday plastic waste tangible — turning routine disposal into a shared, evolving act of collective environmental care.",
@@ -65,9 +65,9 @@ const projects = [
     },
 
     galleryImages: [
-      "/Balance/GalleryImages/galleryImages.jpg",
-      "/Balance/GalleryImages/galleryImages2.JPG",
-      "/Balance/GalleryImages/galleryImages3.JPG"
+      `${import.meta.env.BASE_URL}Balance/GalleryImages/galleryImages.jpg`,
+      `${import.meta.env.BASE_URL}Balance/GalleryImages/galleryImages2.JPG`,
+      `${import.meta.env.BASE_URL}Balance/GalleryImages/galleryImages3.JPG`
     ]
   },
   {
@@ -77,8 +77,8 @@ const projects = [
     category: "Experiential Design",
     categoryJP: "体験デザイン",
     year: "2021",
-    image: "/Emotion Snack/Main/MainImage.png",
-    bannerImage: "/Emotion Snack/Banner/banner.jpg",
+    image: `${import.meta.env.BASE_URL}Emotion Snack/Main/MainImage.png`,
+    bannerImage: `${import.meta.env.BASE_URL}Emotion Snack/Banner/banner.jpg`,
     description: "Transforming emotion into eating experience.",
     descriptionJP: "感情を食べる体験に変える。",
     shortIntro: "A layered edible experience that transforms private confessions into visible, physical form — using shame as both subject and design material.",
@@ -126,9 +126,9 @@ const projects = [
     },
 
     galleryImages: [
-      "/Emotion Snack/GalleryImages/galleryimages1.jpg",
-      "/Emotion Snack/GalleryImages/galleryImages2.JPG",
-      "/Emotion Snack/GalleryImages/galleryImages3.jpg"
+      `${import.meta.env.BASE_URL}Emotion Snack/GalleryImages/galleryimages1.jpg`,
+      `${import.meta.env.BASE_URL}Emotion Snack/GalleryImages/galleryImages2.JPG`,
+      `${import.meta.env.BASE_URL}Emotion Snack/GalleryImages/galleryimages3.jpg`
     ]
   },
   {
@@ -138,8 +138,8 @@ const projects = [
     category: "Interactive Installation",
     categoryJP: "インタラクティブ・インスタレーション",
     year: "2023",
-    image: "/collectivesigh/main/main.jpg",
-    bannerImage: "/collectivesigh/banner/banner.png",
+    image: `${import.meta.env.BASE_URL}collectivesigh/main/main.jpg`,
+    bannerImage: `${import.meta.env.BASE_URL}collectivesigh/banner/banner.png`,
     description: "Transforming collective sentiment into sonic resonance.",
     descriptionJP: "集団の感情を音の共鳴に変える。",
     shortIntro: "An interactive soundscape that gives physical form to the country’s emotional climate — a whispering chime that mirrors the quiet ways our inner world lives and shifts within the emotional atmosphere of our surroundings.",
