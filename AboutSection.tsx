@@ -125,11 +125,11 @@ const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
               </h2>
               <div className="flex flex-col space-y-4 text-base md:text-lg text-[#333]">
                 <a
-                  href="mailto:daydajobhunting@gmail.com"
+                  href="mailto:daydayjobhunting@gmail.com"
                   className="flex items-center gap-3 hover:text-amber-700 transition-colors group"
                 >
                   <Mail className="w-5 h-5 text-gray-400 group-hover:text-amber-700 transition-colors" />
-                  <span className="font-light">daydajobhunting@gmail.com</span>
+                  <span className="font-light">daydayjobhunting@gmail.com</span>
                 </a>
                 <a
                   href="https://instagram.com/dayday.lct"
