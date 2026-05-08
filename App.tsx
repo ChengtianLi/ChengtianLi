@@ -8,7 +8,7 @@ import AboutSection from './components/AboutSection';
 const App: React.FC = () => {
   // Default to Design view
   const [activeSection, setActiveSection] = useState<SectionType>(SectionType.DESIGN);
-  const [language, setLanguage] = useState<Language>(Language.EN);
+  const [language, setLanguage] = useState<Language>(Language.JP);
   const [selectedProject, setSelectedProject] = useState<any>(null);
 
   const toggleLanguage = () => {
