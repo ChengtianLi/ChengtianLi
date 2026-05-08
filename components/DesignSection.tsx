@@ -14,53 +14,53 @@ const projects = [
   {
     id: 0,
     title: "The Price of Daily Behavior",
-    titleJP: "日常行動の代償",
+    titleJP: "日常の対価",
     category: "Interactive Installation",
-    categoryJP: "インタラクティブ・インスタレーション",
+    categoryJP: "体験型インスタレーション",
     year: "2023",
     image: `${import.meta.env.BASE_URL}Balance/Image/balanceimage.JPG`,
     bannerImage: `${import.meta.env.BASE_URL}Balance/BannerImage/balancebannerimages.jpg`,
     description: "Transforming consumption data into physical weight.",
-    descriptionJP: "消費データを物理的な重さに変換する。",
+    descriptionJP: "日々の消費を、手で感じられる重さに変える。",
     shortIntro: "A balance scale that makes the invisible weight of everyday plastic waste tangible — turning routine disposal into a shared, evolving act of collective environmental care.",
-    shortIntroJP: "日常のプラスチック廃棄物の目に見えない重さを具体化する天秤ばかり。日常的な廃棄を、集団的な環境への配慮という共有された進化する行為へと変えます。",
+    shortIntroJP: "毎日なにげなく捨てているプラスチックごみの「見えない重さ」を、天秤で体感する作品。ひとりの小さな行動が、みんなの環境意識へとつながっていく。",
     longDescription: "In an era where digital transactions are seamless and often invisible, the tangible impact of our consumption habits is easily forgotten. 'The Price of Daily Behavior' is an interactive installation that translates personal spending data into physical weight.\n\nUsing a custom-built receipt printer and a system of weighted objects, the installation visualizes the 'heaviness' of daily choices. Each transaction adds a specific weight to a suspended balance, creating a visceral representation of financial accumulation and its burden.",
     longDescriptionJP: "デジタル取引がシームレスで目に見えない時代において、私たちの消費習慣がもたらす具体的な影響は忘れられがちです。「日常行動の代償」は、個人の支出データを物理的な重さに変換するインタラクティブなインスタレーションです。\n\n特注のレシートプリンターと重りのシステムを使用し、日々の選択の「重さ」を可視化します。各取引は吊り下げられた天秤に特定の重さを加え、経済的な蓄積とその負担を直感的に表現します。",
     aspect: "aspect-[16/9]",
     type: "Interactive Installation",
-    typeJP: "インタラクティブ・インスタレーション",
+    typeJP: "体験型インスタレーション",
     mapping: "Behavior to Weight",
-    mappingJP: "行動から重さへ",
+    mappingJP: "行動 → 重さ",
     duration: "3 Months",
     durationJP: "3ヶ月",
     dataStrip: [
-      { value: "700+", label: "blisters per\nperson / year", labelJP: "1人あたりの\n年間ブリスター数" },
-      { value: "1 g", label: "weight of each\nplastic blister", labelJP: "プラスチック\nブリスター1個の重さ" },
-      { value: "0.8 g", label: "weight of\naluminum seal", labelJP: "アルミシールの重さ" },
-      { value: "3 mo.", label: "accumulation\nperiod visualized", labelJP: "可視化された\n蓄積期間" }
+      { value: "700+", label: "blisters per\nperson / year", labelJP: "一人が1年間に捨てる\nブリスターの数" },
+      { value: "1 g", label: "weight of each\nplastic blister", labelJP: "ブリスター1個\n（プラスチック部分）の重さ" },
+      { value: "0.8 g", label: "weight of\naluminum seal", labelJP: "アルミシール\n1枚の重さ" },
+      { value: "3 mo.", label: "accumulation\nperiod visualized", labelJP: "作品の\n制作期間" }
     ],
     concept: {
       headline: "When small acts\ntip the scales",
-      headlineJP: "小さな行為が\n天秤を傾けるとき",
+      headlineJP: "小さな行動が、\n天秤を動かすとき",
       body: [
         "Every day, contact lens users generate a quiet stream of plastic and aluminum waste — blisters so small and so routine that they rarely register as significant. Yet a single person discards over 700 of them a year.",
         "The Price of Daily Behavior makes that accumulation tangible. A balance scale holds marine creatures — jellyfish and fish — handcrafted from discarded blisters and wire. On the other side, the unpeeled, unsorted blisters visitors bring from their own routines.",
         "As participants peel the aluminum seals and place them on the scale, they watch in real time as their individual act shifts the equilibrium — turning an abstract environmental burden into something felt, seen, and collectively moved."
       ],
       bodyJP: [
-        "毎日、コンタクトレンズユーザーはプラスチックとアルミニウムの廃棄物を静かに生み出しています。ブリスターは非常に小さく日常的であるため、重要だと認識されることはほとんどありません。しかし、たった一人で年間700個以上を廃棄しています。",
-        "「日常行動の代償」はその蓄積を具体化します。天秤の一方には、廃棄されたブリスターとワイヤーで作られた海洋生物（クラゲや魚）が乗っています。もう一方には、来場者が自分の日常から持ち寄った、未開封で未分別のブリスターが乗せられます。",
-        "参加者がアルミシールを剥がして天秤に乗せると、個人の行為が平衡を崩す様子をリアルタイムで目の当たりにします。抽象的な環境負荷が、感じられ、見え、集団で動かされるものへと変わるのです。"
+        "コンタクトレンズを使っている人は、毎日少しずつプラスチックとアルミのごみを出し続けている。ブリスターはとても小さく、捨てていることすら気にならない。でも、一人が1年間に捨てる数は700個以上になる。それが何年も、何人分も積み重なれば、決して小さくないプラスチックごみの量になる。",
+        "この作品は、その積み重ねを「目に見える重さ」に変えるものである。天秤の片側には、捨てられたブリスターとワイヤーで手作りしたクラゲや魚が置かれている。もう片側には、分別されないまま捨てられたブリスターが載っている。私たちがふだん何も考えずにごみ箱に入れている、そのままの姿である。",
+        "来場者には、アルミシールを一枚ずつ剥がしてもらう。それはコンタクトレンズを使うとき、誰もが毎日やっている何気ない動作である。その動作を通じて、ふだん意識することのないプラスチックごみの存在に気づいてもらう。一人が剥がしただけでは、天秤はほとんど動かない。でも、2日間の展示を通じて約40人が同じ行動を重ねたとき、天秤はついに反対側へと傾いた。一人の力では見えなかった変化が、みんなの行動の積み重ねによって、はじめて目に見えるかたちになった。"
       ]
     },
     designDimensions: {
       intro: "The installation was developed across four interlocking dimensions — each reinforcing how data, material, interaction, and context come together.",
-      introJP: "このインスタレーションは、データ、素材、インタラクション、コンテキストがどのように組み合わさるかを強化する4つの連動した次元にわたって開発されました。",
+      introJP: "この作品は、4つの軸をもとに設計されている。データ・素材・体験・実施が互いにつながり、一つの作品として成り立っている。",
       items: [
-        { title: "Data", titleJP: "データ", body: "Grounded in three months of unpeeled blisters at five days per week. Each blister ~1 g plastic + ~0.8 g aluminum — calibrated so the scale tips noticeably once enough accumulate.", bodyJP: "週5日、3ヶ月分の未開封ブリスターに基づいています。各ブリスターは約1gのプラスチックと約0.8gのアルミニウムで、十分な量が蓄積すると天秤が著しく傾くように調整されています。" },
-        { title: "Physicalization", titleJP: "フィジカライゼーション", body: "Jellyfish and fish sculptures crafted from wire and discarded blisters populate both sides — marine creatures endangered by the very material participants hold.", bodyJP: "ワイヤーと廃棄されたブリスターで作られたクラゲや魚の彫刻が両側に配置されています。これらは、参加者が手にしている素材そのものによって危険にさらされている海洋生物です。" },
-        { title: "Interaction", titleJP: "インタラクション", body: "Each blister is attached to a wire loop. Visitors peel the aluminum seal themselves. The weight visibly shifts — making collective small-scale action noticeable.", bodyJP: "各ブリスターはワイヤーループに取り付けられています。来場者は自分でアルミシールを剥がします。重さが目に見えて移動し、集団的な小規模な行動を認識させます。" },
-        { title: "Implementation", titleJP: "実装", body: "Over two days of exhibition, as visitors peeled and contributed, the sorted side grew heavier in real time — a live, accumulating record of communal effort.", bodyJP: "2日間の展示期間中、来場者が剥がして貢献するにつれて、分別された側がリアルタイムで重くなっていきました。これは共同の努力の生きた蓄積記録です。" }
+        { title: "Data", titleJP: "データ", body: "Grounded in three months of unpeeled blisters at five days per week. Each blister ~1 g plastic + ~0.8 g aluminum — calibrated so the scale tips noticeably once enough accumulate.", bodyJP: "週5日×3ヶ月分のブリスターをもとにしている。プラスチック約1g、アルミ約0.8gで、ある程度溜まると天秤が目に見えて傾くよう調整した。" },
+        { title: "Physicalization", titleJP: "素材と造形", body: "Jellyfish and fish sculptures crafted from wire and discarded blisters populate both sides — marine creatures endangered by the very material participants hold.", bodyJP: "クラゲや魚の造形物は、廃棄されたブリスターとワイヤーで一つひとつ手作りしたもの。来場者が手にしているのと同じ素材が、海の生きものを脅かしていることを伝えている。" },
+        { title: "Interaction", titleJP: "体験のしくみ", body: "Each blister is attached to a wire loop. Visitors peel the aluminum seal themselves. The weight visibly shifts — making collective small-scale action noticeable.", bodyJP: "ブリスターはそれぞれワイヤーのループに取り付けられている。来場者はアルミシールだけを剥がす。プラスチック部分はそのままループに残る。一人分では天秤はほとんど動かない。その小さな期待と、動かない現実とのあいだに、この作品の問いがある。作品の手前には、これまでの来場者が剥がしたアルミシールが並べられている。自分一人では動かせなかった天秤が、これだけ多くの人の手を経てきたことを目にすることで、小さな行動の積み重ねを実感できる。" },
+        { title: "Implementation", titleJP: "実施の記録", body: "Over two days of exhibition, as visitors peeled and contributed, the sorted side grew heavier in real time — a live, accumulating record of communal effort.", bodyJP: "2日間の展示期間中、来場者が剥がして分別に参加するたびに、天秤の片側が少しずつ重くなっていった。参加者の行動がそのまま、リアルタイムの記録として積み上がっていく様子が見えた。" }
       ]
     },
 

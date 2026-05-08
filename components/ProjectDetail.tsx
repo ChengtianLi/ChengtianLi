@@ -268,7 +268,7 @@ const ProjectDetail: React.FC<ProjectDetailProps> = ({ project, onBack, language
           <div className="mb-24 relative group">
             <div className="flex items-center gap-4 mb-8">
               <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">
-                {isJP ? "ドキュメンテーション" : "Documentation"}
+                {isJP ? "記録写真" : "Documentation"}
               </span>
               <div className="h-px bg-gray-200 flex-grow" />
             </div>
