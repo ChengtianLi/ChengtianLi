@@ -73,55 +73,55 @@ const projects = [
   {
     id: 1,
     title: "A Shameful Snack",
-    titleJP: "恥ずべきスナック",
+    titleJP: "恥の味",
     category: "Experiential Design",
     categoryJP: "体験デザイン",
     year: "2021",
     image: `${import.meta.env.BASE_URL}Emotion Snack/Main/MainImage.png`,
     bannerImage: `${import.meta.env.BASE_URL}Emotion Snack/Banner/banner.jpg`,
     description: "Transforming emotion into eating experience.",
-    descriptionJP: "感情を食べる体験に変える。",
+    descriptionJP: "感情を、食の体験に変える。",
     shortIntro: "A layered edible experience that transforms private confessions into visible, physical form — using shame as both subject and design material.",
-    shortIntroJP: "個人の告白を目に見える物理的な形に変える、層状の食用体験。恥を主題およびデザイン素材として使用します。",
+    shortIntroJP: "「恥」という感情を、食の体験を通じて伝えるエクスペリエンスデザイン。恥の構造を分解し、その仕組みをひとつのヨーグルトボウルに再構成しました。",
     longDescription: "Shame is often hidden, swallowed, or ignored. 'A Shameful Snack' invites participants to physically consume representations of shame, turning a negative emotion into a shared, nourishment experience. By externalizing internal feelings into edible forms, the project challenges the isolation of shame and proposes a communal digestion of our vulnerabilities.",
     longDescriptionJP: "恥はしばしば隠され、飲み込まれ、あるいは無視されます。「恥ずべきスナック」は、参加者に恥の表現を物理的に消費させ、否定的な感情を共有された栄養体験へと変えるよう促します。内面の感情を食用可能な形に外在化することで、このプロジェクトは恥の孤立に挑戦し、私たちの脆弱性の共同消化を提案します。",
     aspect: "aspect-[4/3]",
     type: "Experiential Design",
     typeJP: "体験デザイン",
     mapping: "Emotion Anatomy to Bowl Composition",
-    mappingJP: "感情の解剖学からボウルの構成へ",
+    mappingJP: "感情の構造からボウルの構成へ",
     duration: "1 Day",
     durationJP: "1日",
     dataStrip: [
-      { value: "Shame", valueJP: "恥", label: "emotion studied", labelJP: "研究された感情" },
-      { value: "Personal Anecdotes", valueJP: "個人的な逸話", label: "data source", labelJP: "データソース" },
+      { value: "Shame", valueJP: "恥", label: "emotion studied", labelJP: "研究した感情" },
+      { value: "Personal Anecdotes", valueJP: "個人のエピソード", label: "data source", labelJP: "データソース" },
       { value: "6 Questions", valueJP: "6つの質問", label: "shame trigger", labelJP: "恥のトリガー" },
-      { value: "Yogurt Bowl", valueJP: "ヨーグルトボウル", label: "physical output", labelJP: "物理的出力" }
+      { value: "Yogurt Bowl", valueJP: "ヨーグルトボウル", label: "physical output", labelJP: "体験のアウトプット" }
     ],
     concept: {
       headline: "Deconstructing shame,\none layer at a time",
-      headlineJP: "恥を一層ずつ\n解体する",
+      headlineJP: "恥を、一層ずつほどく",
       body: [
         "This project began by dissecting shame. We studied its causes, catalysts, and physical responses through personal anecdotes and emotion research. From this deconstruction, we identified the specific triggers that reliably provoke the feeling.",
         "Each trigger was then translated into a taboo question. A live bartender asks the participant six questions in sequence. For every 'yes' answer, a topping is added to a yogurt bowl, making the participant's personal shame profile accumulate in plain sight.",
         "The participant can lie to avoid a topping. But in doing so, they have lied out of shame, and the emotion is still triggered. Either way, the bowl reflects who you are. At the end, you eat it."
       ],
       bodyJP: [
-        "このプロジェクトは、恥を解剖することから始まりました。個人的な逸話や感情研究を通じて、その原因、触媒、身体的反応を研究しました。この解体から、確実にその感情を引き起こす特定のトリガーを特定しました。",
-        "各トリガーはタブーな質問に変換されました。ライブバーテンダーが参加者に6つの質問を順番に尋ねます。「はい」と答えるごとに、ヨーグルトボウルにトッピングが追加され、参加者の個人的な恥のプロフィールが目の前で蓄積されていきます。",
-        "参加者はトッピングを避けるために嘘をつくことができます。しかしそうすることで、彼らは恥から嘘をついたことになり、感情は依然として引き起こされます。いずれにせよ、ボウルはあなたが誰であるかを反映しています。最後に、あなたはそれを食べます。"
+        "恥とはどんな感情なのか。何がきっかけで生まれ、どんな反応を身体に引き起こすのか。このプロジェクトでは、個人のエピソードや感情に関するリサーチを通じて恥の構造を分解し、この感情を確実に引き起こすトリガーを特定しました。その知見を、食べるという体験に変換して伝えるのがこの作品です。",
+        "それぞれのトリガーは、ひとつのタブーな質問になります。バーテンダーが体験者に6つの質問を順番に投げかけ、「はい」と答えるたびに、ヨーグルトボウルにトッピングがひとつ加えられます。体験者の恥のかたちが、目の前に積み重なっていきます。",
+        "トッピングを避けるために嘘をつくこともできます。けれど、そのとき体験者は恥から逃れるために嘘をついたことになり、結局「恥」は引き起こされています。どちらにしても、ボウルはあなた自身を映しています。最後に、それを食べます。"
       ],
       quote: "I really don't want to eat that — that is all my regret in one cup.",
-      quoteJP: "本当に食べたくない——それはカップ一杯の私の後悔そのものだ。"
+      quoteJP: "「あれは絶対食べたくない。精一杯の後悔だ。」"
     },
     designDimensions: {
       intro: "The design followed a process of emotional deconstruction — from understanding shame as a concept, to translating its triggers into a physical, edible experience.",
-      introJP: "デザインは、恥を概念として理解することから、そのトリガーを物理的で食用可能な体験に変換することまで、感情的な解体のプロセスに従いました。",
+      introJP: "恥という感情を理解するところから、そのトリガーを食べられる体験として伝えるまでの過程をたどっています。",
       items: [
-        { title: "Data", titleJP: "データ", body: "We first mapped the anatomy of shame through personal anecdotes and group analysis, identifying its causes, catalysts, and physical responses. This gave us the raw data: the specific conditions that reliably trigger the feeling.", bodyJP: "まず、個人的な逸話やグループ分析を通じて恥の解剖学をマッピングし、その原因、触媒、身体的反応を特定しました。これにより、感情を確実に引き起こす特定の条件という生データが得られました。" },
-        { title: "Physicalization", titleJP: "フィジカライゼーション", body: "A yogurt bowl was chosen as the physical form. Each topping maps to one shame trigger, so the bowl's composition reflects the participant's shame profile. A transparent container keeps every layer visible, directly counteracting shame's instinct to conceal.", bodyJP: "物理的な形態としてヨーグルトボウルが選ばれました。各トッピングは1つの恥のトリガーに対応しており、ボウルの構成は参加者の恥のプロフィールを反映しています。透明な容器はすべての層を見えるようにし、恥の隠そうとする本能に直接対抗します。" },
-        { title: "Interaction", titleJP: "インタラクション", body: "A live bartender in server attire asks six questions in sequence, each probing a taboo scenario. A \"yes\" adds the topping; a lie avoids it but still enacts shame. The final question asks whether all answers were truthful, ensuring the emotion is triggered regardless of how the participant responded.", bodyJP: "サーバーの服装をしたライブバーテンダーが、タブーなシナリオを探る6つの質問を順番に尋ねます。「はい」でトッピングが追加されます。嘘をつけば回避できますが、それでも恥を演じることになります。最後の質問は、すべての回答が真実であったかどうかを尋ね、参加者がどのように答えたかに関わらず感情が引き起こされることを保証します。" },
-        { title: "Implementation", titleJP: "実装", body: "The six questions covered a deliberate range of shame registers: cheating on a partner, hiding damage caused to others, knowingly being racist, taking an STD test, stealing, and lying during the snack itself. Together they span intimate, moral, and social dimensions of shame.", bodyJP: "6つの質問は、パートナーへの浮気、他人に与えた損害の隠蔽、意図的な人種差別、性病検査の受診、盗み、そしてスナック中の嘘など、意図的な範囲の恥の領域をカバーしました。これらは共に、恥の親密、道徳的、社会的側面を網羅しています。" }
+        { title: "Data", titleJP: "データ", body: "We first mapped the anatomy of shame through personal anecdotes and group analysis, identifying its causes, catalysts, and physical responses. This gave us the raw data: the specific conditions that reliably trigger the feeling.", bodyJP: "まず、個人のエピソードやグループでの分析を通じて、恥の構造を整理しました。原因、きっかけ、身体的な反応を特定し、この感情を確実に引き起こす条件を明らかにしました。" },
+        { title: "Physicalization", titleJP: "素材と造形", body: "A yogurt bowl was chosen as the physical form. Each topping maps to one shame trigger, so the bowl's composition reflects the participant's shame profile. A transparent container keeps every layer visible, directly counteracting shame's instinct to conceal.", bodyJP: "ヨーグルトボウルを恥の器として選びました。各トッピングがひとつの恥のトリガーに対応し、ボウルの構成が体験者の恥のかたちをそのまま反映します。透明な容器を使うことで、すべての層が見える状態を保ち、恥が本能的に求める「隠すこと」に正面から逆らう造形にしています。" },
+        { title: "Interaction", titleJP: "体験のしくみ", body: "A live bartender in server attire asks six questions in sequence, each probing a taboo scenario. A \"yes\" adds the topping; a lie avoids it but still enacts shame. The final question asks whether all answers were truthful, ensuring the emotion is triggered regardless of how the participant responded.", bodyJP: "サーバーの服装をしたバーテンダーが、6つの質問を順番に投げかけます。それぞれがタブーな場面を問いかけるもので、「はい」と答えるとトッピングが加わり、嘘をつけばトッピングは避けられますが、恥自体は生まれています。最後の質問では、それまでの回答がすべて正直だったかを問い、どのように答えても恥が引き起こされる構造になっています。" },
+        { title: "Implementation", titleJP: "実装", body: "The six questions covered a deliberate range of shame registers: cheating on a partner, hiding damage caused to others, knowingly being racist, taking an STD test, stealing, and lying during the snack itself. Together they span intimate, moral, and social dimensions of shame.", bodyJP: "6つの質問は、恥の異なる側面を意図的にカバーしています。パートナーへの不誠実、他者への損害の隠蔽、差別的な意識、性病検査、窃盗、そしてこの体験そのものでの嘘。親密さ、道徳、社会性という恥の三つの領域にまたがることで、恥という感情の広がりを体験者自身の反応を通じて伝えます。" }
       ]
     },
 
