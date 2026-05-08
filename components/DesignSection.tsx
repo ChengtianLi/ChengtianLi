@@ -134,53 +134,53 @@ const projects = [
   {
     id: 2,
     title: "The Collective Sigh",
-    titleJP: "集団のため息",
+    titleJP: "感情の鈴",
     category: "Interactive Installation",
     categoryJP: "インタラクティブ・インスタレーション",
     year: "2023",
     image: `${import.meta.env.BASE_URL}collectivesigh/main/main.jpg`,
     bannerImage: `${import.meta.env.BASE_URL}collectivesigh/banner/banner.png`,
     description: "Transforming collective sentiment into sonic resonance.",
-    descriptionJP: "集団の感情を音の共鳴に変える。",
+    descriptionJP: "社会の感情を、音の響きに変える。",
     shortIntro: "An interactive soundscape that gives physical form to the country’s emotional climate — a whispering chime that mirrors the quiet ways our inner world lives and shifts within the emotional atmosphere of our surroundings.",
-    shortIntroJP: "国の感情的な気候に物理的な形を与えるインタラクティブなサウンドスケープ。私たちの内面世界が周囲の感情的な雰囲気の中でどのように生き、変化するかを映し出す、ささやくようなチャイムです。",
+    shortIntroJP: "国全体の感情データと、そのなかに暮らす「わたし」の感情。この二つのあいだにある距離を、風と音で体験するインタラクティブ・インスタレーションです。",
     longDescription: "A sigh is a universal mechanism of release, a physical resetting of the system. 'The Collective Sigh' gathers these fleeting moments of relief from participants and weaves them into an evolving soundscape. The installation explores how a solitary act of letting go can become a shared experience of resonance and empathy.",
     longDescriptionJP: "ため息は普遍的な解放のメカニズムであり、システムの物理的なリセットです。「集団のため息」は、参加者からこれらの一瞬の安らぎを集め、進化するサウンドスケープへと織り込みます。このインスタレーションは、手放すという孤独な行為が、いかにして共鳴と共感の共有体験になり得るかを探求します。",
     aspect: "aspect-[3/4]",
     type: "Interactive Installation",
     typeJP: "インタラクティブ・インスタレーション",
     mapping: "Collective Sentiment to Sonic Resonance",
-    mappingJP: "集団感情から音響共鳴へ",
+    mappingJP: "集合的な感情から音の響きへ",
     duration: "2 Weeks",
     durationJP: "2週間",
     dataStrip: [
-      { value: "Mood Survey", valueJP: "ムード調査", label: "Asia weekly since 2021", labelJP: "2021年からの\nアジア週間調査" },
-      { value: "8 Emotions", valueJP: "8つの感情", label: "one fan each", labelJP: "各1つのファン" },
-      { value: "2 Axes", valueJP: "2つの軸", label: "pleasure and arousal", labelJP: "快と覚醒" },
-      { value: "Wind Strength", valueJP: "風の強さ", label: "heard as chime sound", labelJP: "チャイムの音として\n聞こえる" }
+      { value: "Mood Survey", valueJP: "感情調査", label: "Asia weekly since 2021", labelJP: "マクロミル調べより\nアジア圏での感情調査" },
+      { value: "8 Emotions", valueJP: "8つの感情", label: "one fan each", labelJP: "それぞれにファン1台" },
+      { value: "2 Axes", valueJP: "2つの軸", label: "pleasure and arousal", labelJP: "感情価と覚醒度" },
+      { value: "Wind Strength", valueJP: "風の強さ", label: "heard as chime sound", labelJP: "風鈴の音として届く" }
     ],
     concept: {
       headline: "The Atmosphere of the Crowd",
-      headlineJP: "群衆の雰囲気",
+      headlineJP: "群衆の空気",
       body: [
         "We often treat our emotions as private, internal states, yet we are constantly immersed in a collective atmosphere. Like a subtle breeze or a sudden gale, the mood of our surroundings—the combined joy, anxiety, or quiet of millions—shapes the very air we inhabit.",
         "The Collective Sigh gives physical form to this invisible influence. Eight fans, arranged according to the Russell Circumplex Model of affect, translate real-time sentiment data into a living wind field. At the center hangs a single wind bell, representing the individual.",
         "By positioning their own emotional state within this field, participants experience the delicate interplay between their inner world and the collective breath of their surroundings. The resulting chime is a physical dialogue—a tangible, resonant encounter where the \"inner weather\" of the self meets the \"outer weather\" of the world."
       ],
       bodyJP: [
-        "私たちはしばしば感情を私的で内面的な状態として扱いますが、常に集団的な雰囲気に浸っています。微風や突然の強風のように、周囲のムード——何百万もの人々の喜び、不安、静けさの結合——は、私たちが住む空気そのものを形作ります。",
-        "「集団のため息」はこの目に見えない影響に物理的な形を与えます。ラッセルの円環モデルに基づいて配置された8つのファンが、リアルタイムの感情データを生きた風の場に変換します。中心には、個人を表す一つの風鈴が吊るされています。",
-        "この場の中に自分の感情状態を位置づけることで、参加者は自分の内面世界と周囲の集団的な呼吸との間の繊細な相互作用を体験します。結果として生じるチャイムは物理的な対話であり、自己の「内なる天気」が世界の「外なる天気」と出会う、具体的で共鳴する遭遇です。"
+        "わたしたちは感情を自分だけのものとして扱いがちですが、実際には常に集団の感情の空気のなかで暮らしています。何百万人もの喜びや不安、静けさが混ざり合い、そよ風のように穏やかなときもあれば、突風のように激しいときもある。その空気は、わたしたちの過ごす世界そのものをかたちづくっています。",
+        "「感情の鈴」は、このつながりを目に見え、耳に聞こえるかたちにする作品です。ラッセルの感情円環モデルに基づいて配置された8台のファンが、日本のリアルタイムの感情データを風に変えます。その中心に、個人を表すひとつの風鈴が吊るされています。",
+        "体験者はその風のなかに自分自身を置くことで、自分の内面と社会の感情との関係を、風鈴の揺れと音を通じて身をもって体験します。画面上の数字を眺めるだけではわからない、自分と周囲の感情のつながりが、ここでは音と動きとして現れます。"
       ]
     },
     designDimensions: {
       intro: "The installation is defined by four core dimensions that reinforce how data, material, interaction, and context come together.",
-      introJP: "このインスタレーションは、データ、素材、インタラクション、コンテキストがどのように組み合わさるかを強化する4つの主要な次元によって定義されています。",
+      introJP: "このインスタレーションは、データ・素材と造形・体験のしくみ・実装の4つの側面で成り立っています。",
       items: [
-        { title: "Data", titleJP: "データ", body: "Japan’s weekly emotional data is processed and categorized into eight distinct states. These states are mapped onto the Circumplex Model of Affect. This psychological framework places emotions on two axes: pleasure to displeasure and arousal to calm. This mapping transforms abstract sentiment statistics into variables that control the physical environment.", bodyJP: "日本の週間感情データが処理され、8つの異なる状態に分類されます。これらの状態は感情円環モデルにマッピングされます。この心理学的枠組みは、感情を「快-不快」と「覚醒-沈静」の2つの軸上に配置します。このマッピングにより、抽象的な感情統計が物理的環境を制御する変数に変換されます。" },
-        { title: "Physicalization", titleJP: "フィジカライゼーション", body: "Each emotional state is assigned to one of eight fans arranged in a circular field. The strength of each emotion in the dataset determines the wind speed of the corresponding fan. The wind in the room becomes the data made physical. A traditional Japanese wind bell sits at the center to translate these invisible air currents into visible movement and audible sound.", bodyJP: "各感情状態は、円形に配置された8つのファンの1つに割り当てられます。データセット内の各感情の強さが、対応するファンの風速を決定します。部屋の中の風は、物理化されたデータとなります。中心には伝統的な日本の風鈴があり、これらの目に見えない気流を目に見える動きと聞こえる音に変換します。" },
-        { title: "Interaction", titleJP: "インタラクション", body: "Visitors use interface buttons to control the position of the wind chime on the emotional plane. By placing the chime at a coordinate that reflects their current feelings, visitors situate themselves within the country’s data. This allows them to see and hear how their personal state is influenced by the surrounding air. They experience whether their inner feelings harmonize with or are pushed by the collective mood.", bodyJP: "来場者はインターフェースボタンを使用して、感情平面上の風鈴の位置を制御します。現在の感情を反映した座標にチャイムを配置することで、来場者は国のデータの中に自分自身を位置づけます。これにより、自分の個人的な状態が周囲の空気にどのように影響されるかを見て、聞くことができます。彼らは、自分の内なる感情が集団のムードと調和するのか、それとも押されるのかを体験します。" },
-        { title: "Implementation", titleJP: "実装", body: "The final experience is a real-time sonification of data through kinetic movement. As the chime rings, its frequency and sway intensity provide a record of the intersection between the visitor and the collective atmosphere. This transforms digital sentiment into a lived experience that shows how the individual exists within the invisible pressure of a society.", bodyJP: "最終的な体験は、運動によるデータのリアルタイム可聴化です。チャイムが鳴ると、その周波数と揺れの強さが、来場者と集団的な雰囲気との交差の記録を提供します。これは、デジタルな感情を、個人が社会の目に見えない圧力の中でどのように存在するかを示す生きた体験へと変えます。" }
+        { title: "Data", titleJP: "データ", body: "Japan’s weekly emotional data is processed and categorized into eight distinct states. These states are mapped onto the Circumplex Model of Affect. This psychological framework places emotions on two axes: pleasure to displeasure and arousal to calm. This mapping transforms abstract sentiment statistics into variables that control the physical environment.", bodyJP: "マクロミル社が毎週実施している感情調査から、日本の感情データを取得し、8つの感情に分類します。この8つを、感情を感情価（快〜不快）と覚醒度（覚醒〜非覚醒）の2軸で捉える心理学のモデルであるラッセルの感情円環モデルに配置し、抽象的な統計を空間上の座標と強さに変換します。" },
+        { title: "Physicalization", titleJP: "素材と造形", body: "Each emotional state is assigned to one of eight fans arranged in a circular field. The strength of each emotion in the dataset determines the wind speed of the corresponding fan. The wind in the room becomes the data made physical. A traditional Japanese wind bell sits at the center to translate these invisible air currents into visible movement and audible sound.", bodyJP: "8台のファンが、この感情モデルの平面上に円形に並んでいます。各ファンはひとつの感情に対応し、データ上のその感情の割合がファンの風速を決めます。8台のファンが生み出す風が中央にひとつの風の場をつくり、そこに体験者、つまり日本に住む一人ひとりを表す風鈴が吊るされています。" },
+        { title: "Interaction", titleJP: "体験のしくみ", body: "Visitors use interface buttons to control the position of the wind chime on the emotional plane. By placing the chime at a coordinate that reflects their current feelings, visitors situate themselves within the country’s data. This allows them to see and hear how their personal state is influenced by the surrounding air. They experience whether their inner feelings harmonize with or are pushed by the collective mood.", bodyJP: "体験者はボタン操作で、風鈴の位置を感情の平面上で動かします。自分の今の気持ちに合った座標に風鈴を置くことで、国の感情データのなかに自分自身を位置づけます。風鈴の揺れ方や音は、ファンの位置（社会の感情の種類）、風の強さ（その感情の割合）、そして風鈴の位置（自分の感情）によって変わります。自分の気持ちが周囲と調和しているのか、押されているのかを、音と動きで感じ取ることができます。" },
+        { title: "Implementation", titleJP: "実装", body: "The final experience is a real-time sonification of data through kinetic movement. As the chime rings, its frequency and sway intensity provide a record of the intersection between the visitor and the collective atmosphere. This transforms digital sentiment into a lived experience that shows how the individual exists within the invisible pressure of a society.", bodyJP: "最終的な体験は、風鈴の動きを通じたデータのリアルタイムな音への変換です。風鈴が鳴るたびに、その音の高さや揺れの強さが、体験者と社会の感情との交わりを記録します。オンラインの感情データが身体的なやりとりに変わることで、社会の見えない空気のなかに自分がどう存在しているかを感じる体験が生まれます。" }
       ]
     },
 
