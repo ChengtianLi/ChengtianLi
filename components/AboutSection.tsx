@@ -120,9 +120,9 @@ const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
 
             {/* Contact Section */}
             <section>
-              <h2 className="text-xl md:text-2xl font-light tracking-tight text-[#111] mb-6 border-b border-gray-200 pb-3 inline-block pr-12">
+              <h3 className="text-sm font-bold uppercase text-gray-400 tracking-widest mb-8 border-b border-gray-100 pb-2 inline-block">
                 {isJP ? "コンタクト" : "Contact"}
-              </h2>
+              </h3>
               <div className="flex flex-col space-y-4 text-base md:text-lg text-[#333]">
                 <a
                   href="mailto:daydayjobhunting@gmail.com"
