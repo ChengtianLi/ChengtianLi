@@ -37,7 +37,7 @@ const projects = [
       { value: "700+", label: "blisters per\nperson / year", labelJP: "一人が1年間に捨てる\nブリスターの数" },
       { value: "1 g", label: "weight of each\nplastic blister", labelJP: "ブリスター1個\n（プラスチック部分）の重さ" },
       { value: "0.8 g", label: "weight of\naluminum seal", labelJP: "アルミシール\n1枚の重さ" },
-      { value: "3 mo.", label: "accumulation\nperiod visualized", labelJP: "作品の\n制作期間" }
+      { value: "40", valueJP: "40人", label: "visitors", labelJP: "来訪者" }
     ],
     concept: {
       headline: "When small acts\ntip the scales",
@@ -60,7 +60,7 @@ const projects = [
         { title: "Data", titleJP: "データ", body: "Grounded in three months of unpeeled blisters at five days per week. Each blister ~1 g plastic + ~0.8 g aluminum — calibrated so the scale tips noticeably once enough accumulate.", bodyJP: "週5日×3ヶ月分のブリスターをもとにしている。プラスチック約1g、アルミ約0.8gで、ある程度溜まると天秤が目に見えて傾くよう調整した。" },
         { title: "Physicalization", titleJP: "素材と造形", body: "Jellyfish and fish sculptures crafted from wire and discarded blisters populate both sides — marine creatures endangered by the very material participants hold.", bodyJP: "クラゲや魚の造形物は、廃棄されたブリスターとワイヤーで一つひとつ手作りしたもの。来場者が手にしているのと同じ素材が、海の生きものを脅かしていることを伝えている。" },
         { title: "Interaction", titleJP: "体験のしくみ", body: "Each blister is attached to a wire loop. Visitors peel the aluminum seal themselves. The weight visibly shifts — making collective small-scale action noticeable.", bodyJP: "ブリスターはそれぞれワイヤーのループに取り付けられている。来場者はアルミシールだけを剥がす。プラスチック部分はそのままループに残る。一人分では天秤はほとんど動かない。その小さな期待と、動かない現実とのあいだに、この作品の問いがある。作品の手前には、これまでの来場者が剥がしたアルミシールが並べられている。自分一人では動かせなかった天秤が、これだけ多くの人の手を経てきたことを目にすることで、小さな行動の積み重ねを実感できる。" },
-        { title: "Implementation", titleJP: "実施の記録", body: "Over two days of exhibition, as visitors peeled and contributed, the sorted side grew heavier in real time — a live, accumulating record of communal effort.", bodyJP: "2日間の展示期間中、来場者が剥がして分別に参加するたびに、天秤の片側が少しずつ重くなっていった。参加者の行動がそのまま、リアルタイムの記録として積み上がっていく様子が見えた。" }
+        { title: "Implementation", titleJP: "実装", body: "Over two days of exhibition, as visitors peeled and contributed, the sorted side grew heavier in real time — a live, accumulating record of communal effort.", bodyJP: "2日間の展示期間中、来場者が剥がして分別に参加するたびに、天秤の片側が少しずつ重くなっていった。参加者の行動がそのまま、リアルタイムの記録として積み上がっていく様子が見えた。" }
       ]
     },
 
