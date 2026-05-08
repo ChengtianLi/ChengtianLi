@@ -128,7 +128,7 @@ const projects = [
     galleryImages: [
       `${import.meta.env.BASE_URL}Emotion Snack/GalleryImages/galleryimages1.jpg`,
       `${import.meta.env.BASE_URL}Emotion Snack/GalleryImages/galleryImages2.JPG`,
-      `${import.meta.env.BASE_URL}Emotion Snack/GalleryImages/galleryimages3.jpg`
+      `${import.meta.env.BASE_URL}Emotion Snack/GalleryImages/galleryImages3.jpg`
     ]
   },
   {
