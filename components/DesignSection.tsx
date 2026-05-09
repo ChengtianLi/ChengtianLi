@@ -189,7 +189,7 @@ const projects = [
   {
     id: 3,
     title: "Dressed in Water",
-    titleJP: "Dressed in Water",
+    titleJP: "クローゼットのゆらぎ",
     category: "Interactive Game",
     categoryJP: "インタラクティブゲーム",
     year: "2025",
