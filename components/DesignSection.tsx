@@ -193,8 +193,8 @@ const projects = [
     category: "Interactive Game",
     categoryJP: "インタラクティブゲーム",
     year: "2025",
-    image: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.png`,
-    bannerImage: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.png`,
+    image: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.jpeg`,
+    bannerImage: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.jpeg`,
     description: "Transforming wardrobe choices into acts of balance in play.",
     descriptionJP: "日々の服選びを、バランスをめぐる行為に変える。",
     shortIntro: "A Jenga-based data physicalization that makes the fashion industry's ongoing water consumption visible, turning everyday clothing behaviors into a game of structural balance and collective collapse.",
@@ -238,7 +238,11 @@ const projects = [
         { title: "Implementation", titleJP: "Implementation", body: "The game was tested over two weeks across three sessions with eight participants from diverse academic backgrounds, organized in groups of three, three, and two. Each session lasted approximately one hour: a brief introduction to the rules, followed by two to three rounds of play, and closing with a group discussion. The game always ended in one of two ways: either the water ran out, leaving no resources to buy new clothing, or the tower collapsed under the weight of accumulated waste. In post-game discussions, participants noted that the dice system effectively captured the feeling of not being fully in control of their consumption. Several reflected that the game prompted them to reconsider how their own everyday clothing habits accumulate over time. Players also expressed interest in extending the game with richer contextual layers, such as data sheets reflecting the purchasing patterns of different occupations, or cards based on real clothing brand data that players could adopt as personas, adding a role-playing dimension to the experience.", bodyJP: "The game was tested over two weeks across three sessions with eight participants from diverse academic backgrounds, organized in groups of three, three, and two. Each session lasted approximately one hour: a brief introduction to the rules, followed by two to three rounds of play, and closing with a group discussion. The game always ended in one of two ways: either the water ran out, leaving no resources to buy new clothing, or the tower collapsed under the weight of accumulated waste. In post-game discussions, participants noted that the dice system effectively captured the feeling of not being fully in control of their consumption. Several reflected that the game prompted them to reconsider how their own everyday clothing habits accumulate over time. Players also expressed interest in extending the game with richer contextual layers, such as data sheets reflecting the purchasing patterns of different occupations, or cards based on real clothing brand data that players could adopt as personas, adding a role-playing dimension to the experience." }
       ]
     },
-    galleryImages: []
+    galleryImages: [
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryimages1.jpg`,
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages2.png`,
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages3.jpeg`
+    ]
   }
 ].sort((a, b) => parseInt(b.year) - parseInt(a.year));
 
