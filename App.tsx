@@ -48,7 +48,7 @@ const App: React.FC = () => {
                 <nav className="flex gap-8 pb-1">
                   <button
                     onClick={() => setActiveSection(SectionType.DESIGN)}
-                    className={`text-xs font-bold uppercase tracking-widest transition-colors ${activeSection === SectionType.DESIGN
+                    className={`text-xs ${language === Language.EN ? 'font-bold' : 'font-medium'} uppercase tracking-widest transition-colors ${activeSection === SectionType.DESIGN
                       ? 'text-black'
                       : 'text-gray-400 hover:text-theme-purple'
                       }`}
@@ -57,7 +57,7 @@ const App: React.FC = () => {
                   </button>
                   <button
                     onClick={() => setActiveSection(SectionType.RESEARCH)}
-                    className={`text-xs font-bold uppercase tracking-widest transition-colors ${activeSection === SectionType.RESEARCH
+                    className={`text-xs ${language === Language.EN ? 'font-bold' : 'font-medium'} uppercase tracking-widest transition-colors ${activeSection === SectionType.RESEARCH
                       ? 'text-black'
                       : 'text-gray-400 hover:text-theme-purple'
                       }`}
@@ -66,7 +66,7 @@ const App: React.FC = () => {
                   </button>
                   <button
                     onClick={() => setActiveSection(SectionType.ABOUT)}
-                    className={`text-xs font-bold uppercase tracking-widest transition-colors ${activeSection === SectionType.ABOUT
+                    className={`text-xs ${language === Language.EN ? 'font-bold' : 'font-medium'} uppercase tracking-widest transition-colors ${activeSection === SectionType.ABOUT
                       ? 'text-black'
                       : 'text-gray-400 hover:text-theme-purple'
                       }`}
