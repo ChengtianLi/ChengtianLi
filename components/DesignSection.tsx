@@ -193,7 +193,7 @@ const projects = [
     category: "Game",
     categoryJP: "ゲーム",
     year: "2025",
-    image: `${import.meta.env.BASE_URL}DressedinWater/Main/MainImage.jpeg`,
+    image: `${import.meta.env.BASE_URL}DressedinWater/Main/MainImage.png`,
     bannerImage: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.jpeg`,
     description: "Transforming wardrobe choices into acts of balance in play.",
     descriptionJP: "日々の服選びを、バランスをめぐる行為に変える。",
@@ -245,7 +245,8 @@ const projects = [
       `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages3.jpeg`,
       `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages4.jpeg`,
       `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages5.jpeg`,
-      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages6.jpeg`
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages6.jpeg`,
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages7.jpeg`
     ]
   }
 ].sort((a, b) => parseInt(b.year) - parseInt(a.year));
