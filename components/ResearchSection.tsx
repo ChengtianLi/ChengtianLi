@@ -14,19 +14,19 @@ const ResearchSection: React.FC<ResearchSectionProps> = ({ language }) => {
   const scholarships = [
     {
       title: "Program for Development of Next-Generation Front-Runners with Comprehensive Knowledge and Humanity",
-      titleJP: "知と地を創造する次世代フロントランナー養成プログラム",
+      titleJP: "総合知と癒しの次世代フロントランナー育成プログラム",
       year: "2024-2025",
       link: "https://www.spring-boost.i.isct.ac.jp/en/"
     },
     {
       title: "Advanced Human Resource Development Fellowship",
-      titleJP: "高度人材育成フェローシップ",
+      titleJP: "東京⼯業⼤学⾼度⼈材育成博⼠フェローシップ",
       year: "2023-2024",
       link: "https://www.fellowship.gakumu.titech.ac.jp/en/about/"
     },
     {
       title: "Chinese National Scholarship for Undergraduate Students",
-      titleJP: "中国国家奨学金（学部生向け）",
+      titleJP: "中国政府奨学金",
       year: "2016-2018",
       link: null
     }
