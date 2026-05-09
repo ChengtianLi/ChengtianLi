@@ -100,7 +100,7 @@ const projects = [
     ],
     concept: {
       headline: "Deconstructing shame,\none layer at a time",
-      headlineJP: "恥を、一層ずつほどく",
+      headlineJP: "恥を、\n一層ずつほどく",
       body: [
         "This project began by dissecting shame. We studied its causes, catalysts, and physical responses through personal anecdotes and emotion research. From this deconstruction, we identified the specific triggers that reliably provoke the feeling.",
         "Each trigger was then translated into a taboo question. A live bartender asks the participant six questions in sequence. For every 'yes' answer, a topping is added to a yogurt bowl, making the participant's personal shame profile accumulate in plain sight.",
@@ -190,8 +190,8 @@ const projects = [
     id: 3,
     title: "Dressed in Water",
     titleJP: "クローゼットのゆらぎ",
-    category: "Interactive Game",
-    categoryJP: "インタラクティブゲーム",
+    category: "Game",
+    categoryJP: "Game",
     year: "2025",
     image: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.jpeg`,
     bannerImage: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.jpeg`,
@@ -202,8 +202,8 @@ const projects = [
     longDescription: "Every year, the average person buys around 20 new clothing items, discards 14, and keeps roughly 23 that are never worn. Behind each garment lies an enormous environmental cost, from thousands of liters of water to carbon emissions and textile waste. Yet these consequences unfold so far from our daily lives that they rarely feel connected to what we wear.",
     longDescriptionJP: "毎年、一人あたり約20着の服を買い、14着を手放し、約23着を一度も着ないまましまい込んでいます。一着の服をつくるには数千リットルもの水が使われ、CO₂の排出や繊維ごみも生まれています。でも、こうした影響は暮らしの中ではなかなか実感できません。",
     aspect: "aspect-[4/3]",
-    type: "Interactive Game",
-    typeJP: "インタラクティブゲーム",
+    type: "Game",
+    typeJP: "Game",
     mapping: "Consumption to Collapse",
     mappingJP: "消費から崩壊へ",
     duration: "2 Weeks",
@@ -216,7 +216,7 @@ const projects = [
     ],
     concept: {
       headline: "When consumption\ntopples the tower",
-      headlineJP: "服でタワーを倒すとき",
+      headlineJP: "服でタワーを\n倒すとき",
       body: [
         "Every year, the average person buys around 20 new clothing items, discards 14, and keeps roughly 23 that are never worn. Behind each garment lies an enormous environmental cost, from thousands of liters of water to carbon emissions and textile waste. Yet these consequences unfold so far from our daily lives that they rarely feel connected to what we wear.",
         "Dressed in Water reframes this disconnect through the metaphor of balance. Built as a modified Jenga tower grounded in real fashion and water consumption data from Japan, the game positions sustainability not as a moral judgment on buying, but as an ongoing negotiation between consumption and finite natural resources. A dice system drives each turn, representing the external forces that shape our clothing behaviors in ways we don't fully control: trends, social pressure, habits, and circumstance. Players cannot choose what happens, only how they respond.",
