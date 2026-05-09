@@ -25,7 +25,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
             <p className="text-gray-600 leading-relaxed text-lg mb-6 whitespace-pre-line">
               {isJP
                 ? "Chiaは、私たちの世界を構成するデータの中に潜む物語や感情を明らかにします。デザイナーとして、彼女はインタラクティブなオブジェクトを制作し、ワークショップを支援するツールをデザインしています。どちらのアプローチも、発見、解釈、省察を促す遊び心のある体験を生み出します。研究者としては、抽象的な情報がいかにして視覚的・物理的なデザインを通じてより広い層に響く形で伝えられるかを探求し、人々を能動的な参加者として巻き込みながら協働しています。"
-                : "Chia uncovers the stories and emotions within the data that makes up our world. As a designer, she creates interactive objects and designs tools that scaffold workshops. Both approaches create playful experiences that invite discovery, interpretation, and reflection. As a researcher, she investigates how abstract information can be communicated through visual and physical designs that resonate with wider audiences, working collaboratively with people as active participants."
+                : "Chia explores how data can be transformed into experiences that feel meaningful. As a designer, she creates interactive objects and designs tools that scaffold workshops. Both approaches create playful experiences that invite discovery, interpretation, and reflection. As a researcher, her work sits at the intersection of human-computer interaction, semiotics, and ludic design. She works closely with participants and uses qualitative methods to understand how people actually interpret and feel about the experiences they encounter."
               }
             </p>
             <div className="w-20 h-1 bg-theme-yellow mb-6"></div>
@@ -61,7 +61,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
                     </h4>
                     <p className="text-gray-600 font-normal mt-2 leading-relaxed">
                       {isJP
-                        ? "修士 — インダストリアルデザインエンジニアリング学部 デザイン・フォー・インタラクション"
+                        ? "修士 — インダストリアルデザインエンジニアリング大学院 デザイン・フォー・インタラクション"
                         : "Master — Industrial Design Engineering, Design for Interaction"}
                     </p>
                   </div>
