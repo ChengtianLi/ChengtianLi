@@ -24,7 +24,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({ language }) => {
           <section className="mb-20">
             <p className="text-gray-600 leading-relaxed text-lg mb-6 whitespace-pre-line">
               {isJP
-                ? "Chiaは、私たちの世界を構成するデータの中に潜む物語や感情を明らかにします。デザイナーとして、彼女はインタラクティブなオブジェクトを制作し、ワークショップを支援するツールをデザインしています。どちらのアプローチも、発見、解釈、省察を促す遊び心のある体験を生み出します。研究者としては、抽象的な情報がいかにして視覚的・物理的なデザインを通じてより広い層に響く形で伝えられるかを探求し、人々を能動的な参加者として巻き込みながら協働しています。"
+                ? "Chiaは、データの中にある物語や感情を、人の心に届く体験へとかたちにしています。デザイナーとしては、インタラクティブな作品をつくったり、ワークショップを支える道具を設計したりしながら、遊び心のある体験をつくり出すことで、気づきや解釈、内省のきっかけを届けています。研究者としては、ヒューマン・コンピュータ・インタラクション（HCI）、記号論、ルディックデザインが交差する領域を研究対象としています。参加型デザインの手法を用い、参加者と共にデザインプロセスを進めながら、質的調査を通じて、人々が体験をどのように解釈し、何を感じ取るのかを明らかにしています。"
                 : "Chia explores how data can be transformed into experiences that feel meaningful. As a designer, she creates interactive objects and designs tools that scaffold workshops. Both approaches create playful experiences that invite discovery, interpretation, and reflection. As a researcher, her work sits at the intersection of human-computer interaction, semiotics, and ludic design. She works closely with participants and uses qualitative methods to understand how people actually interpret and feel about the experiences they encounter."
               }
             </p>
