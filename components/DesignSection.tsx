@@ -191,9 +191,9 @@ const projects = [
     title: "Dressed in Water",
     titleJP: "クローゼットのゆらぎ",
     category: "Game",
-    categoryJP: "Game",
+    categoryJP: "ゲーム",
     year: "2025",
-    image: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.jpeg`,
+    image: `${import.meta.env.BASE_URL}DressedinWater/Main/MainImage.jpeg`,
     bannerImage: `${import.meta.env.BASE_URL}DressedinWater/banner/banner.jpeg`,
     description: "Transforming wardrobe choices into acts of balance in play.",
     descriptionJP: "日々の服選びを、バランスをめぐる行為に変える。",
@@ -203,7 +203,7 @@ const projects = [
     longDescriptionJP: "毎年、一人あたり約20着の服を買い、14着を手放し、約23着を一度も着ないまましまい込んでいます。一着の服をつくるには数千リットルもの水が使われ、CO₂の排出や繊維ごみも生まれています。でも、こうした影響は暮らしの中ではなかなか実感できません。",
     aspect: "aspect-[4/3]",
     type: "Game",
-    typeJP: "Game",
+    typeJP: "ゲーム",
     mapping: "Consumption to Collapse",
     mappingJP: "消費から崩壊へ",
     duration: "2 Weeks",
@@ -242,7 +242,10 @@ const projects = [
     galleryImages: [
       `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryimages1.jpg`,
       `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages2.png`,
-      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages3.jpeg`
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages3.jpeg`,
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages4.jpeg`,
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages5.jpeg`,
+      `${import.meta.env.BASE_URL}DressedinWater/GalleryImages/galleryImages6.jpeg`
     ]
   }
 ].sort((a, b) => parseInt(b.year) - parseInt(a.year));
